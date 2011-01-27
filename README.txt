@@ -5,15 +5,17 @@ Requires at least: 3.0
 Tested up to: 3.0.4
 Stable tag: 1.0
 
-SEO Categories optimizes your <a href="http://tentblogger.com/wordpress-permalinks/" target="_blank">permalink</a> structure at the category level to make them as functional (and pretty) as possible for both your users and the search engines (<a href="http://google.com/" target="_blank">Google</a>, <a href="http://bing.com" target="_blank">Bing</a>, <a href="http://yahoo.com/" target="_blank">Yahoo</a>) that index your content! 
+SEO Categories optimizes your <a href="http://tentblogger.com/wordpress-permalinks/" target="_blank">permalink</a> structure at the category level to make them as functional (and pretty) as possible.
 
 == Description ==
 
-Practically it removes 'category' from your permalink structure (e.g. /category/name to /name).
+Improves and optimizes your <a href="http://tentblogger.com/wordpress-permalinks/" target="_blank">permalink</a> structure at the category level to make them as functional (and pretty) for both your users and the search engines (<a href="http://google.com/" target="_blank">Google</a>, <a href="http://bing.com" target="_blank">Bing</a>, <a href="http://yahoo.com/" target="_blank">Yahoo</a>) that index your content! 
+
+It removes 'category' from your permalink structure (e.g. /category/name to /name).
 
 Features:
 Better permalinks for SEO (Search Engines, Indexing your blog posts).
-More pretty category structure for your users (increased engagement, readership).
+Prettier category structure for your users (increased engagement, readership).
 Super light, fast, and no need for any setup.
 Works with sub-categories
 Redirects old category permalinks to the new ones via a 301 redirect so you don't lose any existing SEO.

@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TentBlogger SEO Categories\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-01-25 16:08-0500\n"
+"PO-Revision-Date: 2011-01-25 16:08-0500\n"
+"Last-Translator: \n"
+"Language-Team: TentBlogger <info@tentblogger.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../tentblogger-seo-categories-dashboard.php:4
+msgid "TentBlogger's SEO Categories"
+msgstr ""
+
+#: ../tentblogger-seo-categories-dashboard.php:9
+msgid "SEO Categories"
+msgstr ""
+
+#: ../tentblogger-seo-categories-dashboard.php:14
+msgid "SEO Categories optimizes your permalink structure at the category level to make them as functional (and pretty) as possible for both your users and the search engines (Google, Bing, Yahoo) that index your content! <a href=\"http://tentblogger.com/seo-categories\">Read More...</a>"
+msgstr ""
+
+#: ../tentblogger-seo-categories-dashboard.php:17
+msgid "Congrats on installing TentBlogger's SEO Categories Plugin for WordPress! You have nothing else to do except to sit back and relax as your blog now is more optimized for Search Engines!"
+msgstr ""
+
+#: ../tentblogger-seo-categories-dashboard.php:20
+msgid "You've also increased usability and your overall reader's experience by making your <a href=\"http://tentblogger.com/wordpress-permalinks/\" target=\"_blank\">permalinks</a> more pretty and functional!"
+msgstr ""
+
+#: ../tentblogger-seo-categories-dashboard.php:23
+msgid "Great stuff!"
+msgstr ""
+
+#: ../tentblogger-seo-categories-dashboard.php:26
+msgid "Read more about this plugin <a href=\"http://tentblogger.com/seo-categories\">here</a> and feel free to <a href=\"http://twitter.com/tentblogger\" target=\"_blank\">follow me</a> on Twitter!"
+msgstr ""
+

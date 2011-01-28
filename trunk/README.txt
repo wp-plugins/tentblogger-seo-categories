@@ -3,7 +3,7 @@ Contributors: tentblogger
 Tags: seo, redirection, category, blog
 Requires at least: 3.0
 Tested up to: 3.0.4
-Stable tag: 1.1
+Stable tag: 1.2
 
 SEO Categories optimizes your <a href="http://tentblogger.com/wordpress-permalinks/" target="_blank">permalink</a> structure at the category level to make them as functional (and pretty) as possible.
 
@@ -34,6 +34,9 @@ Redirects old category permalinks to the new ones via a 301 redirect so you don'
 1. TentBlogger SEO Categories
 
 == Changelog ==
+
+= 1.2 =
+* Update to the plugin URI
 
 = 1.1 =
 * Fixed a problem occurring around creating new categories after the plugin is activated.

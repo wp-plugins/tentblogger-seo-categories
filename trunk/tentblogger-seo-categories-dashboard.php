@@ -1,4 +1,4 @@
-<![CDATA[ TentBlogger SEO Categories 1.1 ]]>
+<![CDATA[ TentBlogger SEO Categories 1.2 ]]>
 <div class="wrap">
 	<h2>
 		<?php _e("TentBlogger's SEO Categories", "tentblogger-seo-categories"); ?>

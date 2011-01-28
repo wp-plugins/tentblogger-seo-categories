@@ -2,7 +2,7 @@
 /*
 Plugin Name: TentBlogger SEO Categories
 Description: SEO Categories optimizes your <a href="http://tentblogger.com/wordpress-permalinks/" target="_blank">permalink</a> structure at the category level to make them as functional (and pretty) as possible for both your users and the search engines (<a href="http://google.com/" target="_blank">Google</a>, <a href="http://bing.com" target="_blank">Bing</a>, <a href="http://yahoo.com/" target="_blank">Yahoo</a>) that index your content! 
-Version: 1.0
+Version: 1.1
 Author: TentBlogger
 Author URI: http://tentblogger.com
 License:

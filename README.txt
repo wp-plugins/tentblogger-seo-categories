@@ -35,5 +35,8 @@ Redirects old category permalinks to the new ones via a 301 redirect so you don'
 
 == Changelog ==
 
+= 1.1 =
+* Fixed a problem occurring around creating new categories after the plugin is activated.
+
 = 1.0 =
 * Initial release

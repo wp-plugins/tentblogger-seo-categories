@@ -185,6 +185,14 @@ class TentBlogger_SEO_Categories {
 		
 	} // end base_request
 	
+	/**
+	 * Flushes the current set of WordPress' rewrite rules.
+	 */
+	public function flush_rules() {
+		global $wp_rewrite;
+		$wp_rewrite->flush_rules();
+	} // end flush_rules
+	
 	/*--------------------------------------------*
 	 * Private Functions
 	 *---------------------------------------------*/
@@ -206,14 +214,6 @@ class TentBlogger_SEO_Categories {
 		return $category_rewrite;
 		
 	} // end setup_redirection
-	 
-	/**
-	 * Flushes the current set of WordPress' rewrite rules.
-	 */
-	private function flush_rules() {
-		global $wp_rewrite;
-		$wp_rewrite->flush_rules();
-	} // end flush_rules
 	
 	/**
 	 * Helper function for registering and loading scripts and styles.

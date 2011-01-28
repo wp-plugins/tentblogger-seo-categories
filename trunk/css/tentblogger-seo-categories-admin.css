@@ -1,8 +1,6 @@
 /*
 Plugin Name: TentBlogger SEO Categories
-Version: 1.0
 */
-.hndle { padding: 1em; margin-top: 0em; }
-.postbox .inside { padding: 1em; margin-top: -1em; }
-.postbox .inside a { text-decoration: none; }
-.postbox .inside .list { list-style-type: disc !important; margin-left: 2em; }
+.tentblogger-hndle { padding: 1em; margin-top: 0em; }
+.tentblogger-postbox .tentblogger-inside { padding: 1em; margin-top: -1em; }
+.tentblogger-postbox .tentblogger-inside a { text-decoration: none; }

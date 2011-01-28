@@ -1,15 +1,15 @@
-<![CDATA[ TentBlogger SEO Categories 1.2 ]]>
+<![CDATA[ TentBlogger SEO Categories 1.3 ]]>
 <div class="wrap">
 	<h2>
 		<?php _e("TentBlogger's SEO Categories", "tentblogger-seo-categories"); ?>
 	</h2>
-	<div class="postbox">
-		<h3 class="hndle">
+	<div class="tentblogger-postbox">
+		<h3 class="tentblogger-hndle">
 			<span>
 				<?php _e("SEO Categories", "tentblogger-seo-categories"); ?>
 			</span>
 		</h3>
-		<div class="inside">
+		<div class="tentblogger-inside">
 			<p>
 			<?php _e('SEO Categories optimizes your permalink structure at the category level to make them as functional (and pretty) as possible for both your users and the search engines (Google, Bing, Yahoo) that index your content! <a href="http://tentblogger.com/seo-categories">Read More...</a>', 'tentblogger-seo-categories'); ?>
 			</p>

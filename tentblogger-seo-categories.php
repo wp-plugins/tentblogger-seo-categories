@@ -3,7 +3,7 @@
 Plugin Name: TentBlogger SEO Categories
 Plugin URI: http://tentblogger.com/seo-categories/
 Description: SEO Categories optimizes your <a href="http://tentblogger.com/wordpress-permalinks/" target="_blank">permalink</a> structure at the category level to make them as functional (and pretty) as possible for both your users and the search engines (<a href="http://google.com/" target="_blank">Google</a>, <a href="http://bing.com" target="_blank">Bing</a>, <a href="http://yahoo.com/" target="_blank">Yahoo</a>) that index your content! 
-Version: 1.3
+Version: 2.0
 Author: TentBlogger
 Author URI: http://tentblogger.com
 License:
@@ -62,7 +62,11 @@ class TentBlogger_SEO_Categories {
 	function admin() {
 		if(function_exists('add_menu_page')) {
 			$this->load_file('tentblogger-seo-categories-styles', '/tentblogger-seo-categories/css/tentblogger-seo-categories-admin.css');
-			add_menu_page('SEO Categories', 'SEO Categories', 'administrator', 'tentblogger-seo-categories-handle', array($this, 'display'));
+		
+      if(!$this->my_menu_exists('tentblogger-handle')) {
+        add_menu_page('TentBlogger', 'TentBlogger', 'administrator', 'tentblogger-handle', array($this, 'display'));
+      }
+      add_submenu_page('tentblogger-handle', 'TentBlogger', 'SEO Categories', 'administrator', 'tentblogger-seo-cats-handle', array($this, 'display'));
 		} // end if
 	} // end admin_menu
 	
@@ -236,7 +240,30 @@ class TentBlogger_SEO_Categories {
 			} // end if
 		} // end if
 	} // end _load_file
-
+	
+  /**
+   * http://wordpress.stackexchange.com/questions/6311/how-to-check-if-an-admin-submenu-already-exists
+   */
+  private function my_menu_exists( $handle, $sub = false){
+    if( !is_admin() || (defined('DOING_AJAX') && DOING_AJAX) )
+      return false;
+    global $menu, $submenu;
+    $check_menu = $sub ? $submenu : $menu;
+    if( empty( $check_menu ) )
+      return false;
+    foreach( $check_menu as $k => $item ){
+      if( $sub ){
+        foreach( $item as $sm ){
+          if($handle == $sm[2])
+            return true;
+        }
+      } else {
+        if( $handle == $item[2] )
+          return true;
+      }
+    }
+    return false;
+  } // end my_menu_exists
 } // TentBlogger_SEO_Categories
 new TentBlogger_SEO_Categories();
 ?>
